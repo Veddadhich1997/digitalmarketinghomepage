@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*NavBar CSS*/
+.navbar-container{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 38px;
+}
+.navbar-container>div:nth-child(1){
+	margin-left: 66px;
+}
+.list{
+	display: flex;
+    list-style: none;
+    justify-content: left;
+}
+.list>li{
+	padding-left: 33px;
+    color: #888888;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+}
+.list>li:hover{
+	color:#000000;
+	font-size:16px;
+	font-weight:500;
+}
+.navbar-container>div>img{
+	width: 110px;
+}
+.grow-list{
+	width: 42%;
+    margin-right: auto;
+    margin-left: 62px;
+    margin-top: 9px;
+}
+.button-group{
+	margin-right: 66px;
+}
+.nav-button{
+	width: 143px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    background-color: #5955b3;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.nav-button:hover{
+	background-color: #EF5354;
+	color:#ffff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+
+/*Banner Container Css*/
+.banner-container{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.banner-container>div:nth-child(2){
+	margin-left: auto;
+    margin-top: 50px;
+}
+.banner-container>div>img{
+	width: 98ch;
+}
+.banner-container>div:nth-child(1){
+	position: relative;
+    top: 19ch;
+    left: 8ch;
+}
+.heading-text{
+	font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    max-width: 15ch;
+    line-height: 60px;
+    color: #3c2f60;
+    letter-spacing: 2px;
+}
+.heading-text>span{
+	color:#5955b3;
+}
+.description{
+	margin: 42px 0px;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    max-width: 37ch;
+    color: #888888;
+}
+.nav-button-btn{
+	width: 167px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    background-color: #5955b3;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.nav-button-btn:hover{
+	background-color: #EF5354;
+	color:#ffff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
